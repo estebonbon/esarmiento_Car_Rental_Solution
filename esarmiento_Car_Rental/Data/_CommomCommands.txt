@@ -1,0 +1,4 @@
+﻿Add-Migration -Context CarRentalContext -o Data\CRMigrations Initial
+Update-Database -Context CarRentalContext
+
+Add-Migration -Context ApplicationDbContext -OutputDir Data\Migrations Initial
